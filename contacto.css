@@ -1,0 +1,96 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f6f8fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Contenedor principal */
+.contact-container {
+    max-width: 600px;
+    background: #fff;
+    padding: 40px;
+    margin: 50px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-container p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Formulario */
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+/* Botón */
+.btn-enviar {
+  width: 100%;
+  background: #007bff;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-enviar:hover {
+  background: #0056b3;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: auto;
+  padding: 20px 0;
+  background: #f1f1f1;
+  color: #555;
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .contact-container {
+    margin: 20px;
+    padding: 25px;
+  }
+}
